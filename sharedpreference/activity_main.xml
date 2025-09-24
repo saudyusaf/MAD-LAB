@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- College Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ilahia College of Science and Technology"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2E3A59"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+
+        <!-- Username -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username"
+            android:drawableLeft="@android:drawable/ic_menu_edit"
+            android:padding="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Mobile Number -->
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Number"
+            android:drawableLeft="@android:drawable/ic_menu_call"
+            android:padding="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="phone"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:padding="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            android:padding="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textPassword"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/confirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            android:padding="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textPassword"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#2E7D32"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
